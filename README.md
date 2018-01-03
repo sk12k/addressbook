@@ -1,6 +1,8 @@
 Addressbook Tutorial
 ====================
 
+## added this line for codepipeline demo
+
 This tutorial teaches you some of the basic concepts in [Vaadin Framework](https://vaadin.com). It is meant to be
 a fast read for learning how to get started - not an example on how application should be
 designed. Please note this example uses and requires Java 8 to work.
@@ -66,27 +68,27 @@ To use the built in server adapters of Eclipse, instead of doing "Run As -> Mave
 - *Do not use the suggested J2EE Preview server* as it is outdated, deprecated and does not support Servlet 3, which is required for this application
 
 ## Required Software
-* Maven 
-* ANT 
+* Maven
+* ANT
 * Java (preferrably JDK 7+)
 * PMD (Optional - if not installing it, remove references to PMD in Ant build files)
 * Cobertura (Optional, bu recommended)
 
 ### Installing PMD
-* Download PMD from https://github.com/pmd/pmd/releases/download/pmd_releases%2F5.4.0/pmd-bin-5.4.0.zip 
-* Unzip file to c:\apps\pmd 
+* Download PMD from https://github.com/pmd/pmd/releases/download/pmd_releases%2F5.4.0/pmd-bin-5.4.0.zip
+* Unzip file to c:\apps\pmd
 * Set System Variable PMD_HOME to c:\apps\pmd
 
 ### Installing Maven
 * Download MAven and unzip to a folder
-* set MAVEN_HOME to name of folders where it was unzipped. 
+* set MAVEN_HOME to name of folders where it was unzipped.
 
 ### Installing ANT
 * Download MAven and unzip to a folder
-* set ANT_HOME to name of folders where it was unzipped. 
+* set ANT_HOME to name of folders where it was unzipped.
 
-### Additional config 
-* download and copy following files to %ANT_HOME%\lib folder 
+### Additional config
+* download and copy following files to %ANT_HOME%\lib folder
  * sonarqube-ant-task-2.4.jar
  * ant-contrib.jar  (Download from from http://sourceforge.net/projects/ant-contrib/files/ant-contrib/ant-contrib-1.0b2/ (Do not use 1.0b3))
  * maven-ant-tasks-2.1.3.jar
