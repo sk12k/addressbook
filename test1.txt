@@ -1,1 +1,2 @@
 This file is for ng demo
+This portion of the file was updated live on Github. Expecting it to be pulled by the local repo
